@@ -1,0 +1,39 @@
+# AIP Gateway installer config values
+# Installation folder for executables
+INSTALL_PATH=template_installDir/CAST/Dashboards/Console-EE-HDED
+# Type of installation
+# Automatically detected by the installer, but you can overwrite it using this parameter
+# setup.mode=install
+
+# Data folder
+#### ! BUG: this setting is not taken into account by product in automated installation, defaults are used
+dataFolder=template_installDir/ProgramData/CAST/Dashboards/Console-EE-HDED
+
+# Port for the gateway server
+#### ! BUG: this setting is not taken into account by product in automated installation, defaults are used
+server.port=8087
+
+# Database configuration for service registry
+db.host=localhost:2284
+#### ! BUG: this setting is not taken into account by product in automated installation, defaults are used
+# db.user=operator
+# db.password=CastAIP
+db.database=postgres
+
+#### ! BUG: this setting is not taken into account by product in automated installation, defaults are used
+serverConfigUrl=http://localhost:8088/config
+
+# Install as a service
+#### ! BUG: this setting is not taken into account by product in automated installation, defaults are used
+#### ! default is, do not install it as a service
+windows.service.install=true
+# Start service after installation
+windows.service.startAfterInstall=true
+# Use a user account for the service
+windows.service.isUserAccount=false
+# User account name/password (don't forget the domain in the username; DOMAIN\\USER - double backslashes)
+windows.service.user=
+windows.service.password=
+
+# Create shortcuts on desktop
+DesktopShortcutCheckboxEnabled=false

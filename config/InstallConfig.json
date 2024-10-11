@@ -1,0 +1,12 @@
+{
+    "InstallParameters": 
+        {
+			"installdir": "D:\\CASTInstall", 
+			"cssport": "2284", 
+			"cssdir": "CastStorageService4",
+			"keycloakdb": "keycloak",
+			"csshostname": "localhost",
+			"cssuser": "operator",
+			"csspassword": "CastAIP"
+		}
+}

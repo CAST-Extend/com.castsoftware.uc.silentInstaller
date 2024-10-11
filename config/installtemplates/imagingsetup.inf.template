@@ -1,0 +1,8 @@
+[Setup]
+Lang=english
+Dir=template_installDir\CAST\ImagingSystem
+Group=CAST Imaging
+NoIcons=0
+Tasks=
+Neo4jDataDir=template_installDir\ProgramData\CAST\ImagingSystem\Neo4j_data
+ConfigDir=template_installDir\AppData\Roaming\CAST\ImagingSystem

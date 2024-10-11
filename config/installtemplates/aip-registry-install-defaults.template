@@ -1,0 +1,37 @@
+# AIP Service Registry installer config values
+# Installation folder for executables
+INSTALL_PATH=template_installDir/CAST/AIP-Service-Registry/bin
+# Type of installation
+# Automatically detected by the installer, but you can overwrite it using this parameter
+# setup.mode=install
+# Data folder
+dataFolder=template_installDir/ProgramData/CAST/AIP-Service-Registry/data
+# Port for the standalone server
+server.port=8088
+
+deliveryFolder=template_installDir/delivery
+deployFolder=template_installDir/deployFolder
+sharedFolder=template_installDir/common-data
+
+#property name for this URI is not known yet. Auto Installation does not support its custom value as of this version
+KEYCLOAK_URI=http://localhost:8086
+Dashboards_URL=http://localhost:8087
+
+# Database configuration for service registry
+db.host=localhost:2284
+db.user=operator
+db.password=CastAIP
+db.database=postgres
+
+# Install as a service
+windows.service.install=true
+# Start service after installation
+windows.service.startAfterInstall=true
+# Use a user account for the service
+windows.service.isUserAccount=false
+# User account name/password (don't forget the domain in the username; should be like DOMAIN\\USER - double backslashes)
+windows.service.user=
+windows.service.password=
+
+# Create shortcuts on desktop
+DesktopShortcutCheckboxEnabled=false

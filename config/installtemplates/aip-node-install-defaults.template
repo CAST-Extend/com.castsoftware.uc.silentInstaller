@@ -1,0 +1,28 @@
+# AIP Node Enterprise installer config values
+# Installation folder for executables
+INSTALL_PATH=template_installDir/CAST/AIP-Node-Enterprise/bin
+# Type of installation
+# Automatically detected by the installer, but you can overwrite it using this parameter
+# setup.mode=install
+# Data folder
+dataFolder=template_installDir/CAST/AIP-Node-Enterprise/data
+# CAIP folder path
+caipFolder=template_installDir/CAST/8.3
+# Instance id, the ID that will identify this node instance in the service registry
+instanceId=localhost:8089
+# Configuration server URL
+configServerUrl=http://localhost:8088/config
+
+
+# Install as a service
+windows.service.install=true
+# Start service after installation
+windows.service.startAfterInstall=true
+# Use a user account for the service
+windows.service.isUserAccount=false
+# User account name/password (don't forget the domain in the username; should be like DOMAIN/USER)
+windows.service.user=
+windows.service.password=
+
+# Create shortcuts on desktop
+DesktopShortcutCheckboxEnabled=false
