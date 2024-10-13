@@ -1,7 +1,7 @@
 {
-    "Connection": [
-        {"INFO": "Please update your API Key from CAST extend to download packages."},
-		{"apiKey": "a727d6e9-1010-4e41-9b3c-3fec35db2142"}
+    "connection": [
+        {"id": "Info", "value": "Please update your API Key from CAST extend to download packages."},
+		{"id": "apikey", "value": ""}
     ],
     "packages": [
 		{"id": "com.castsoftware.uc.arg", "version": "latest"},

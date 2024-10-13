@@ -15,7 +15,24 @@ $jsonContent = Get-Content -Path $jsonFilePath -Raw
 $ExtendConfig = $jsonContent | ConvertFrom-Json
 
 #read API KEY from the config file.
-$apiKey = $ExtendConfig.Connection.apikey
+$apiKey = ""
+foreach ($connectionItem in $ExtendConfig.connection) 
+{
+	if ($connectionItem.id -eq "apikey")
+	{
+		$apiKey = $connectionItem.value
+	}
+}
+
+if ("" -eq $apiKey)
+{
+	Write-Host "Missing Key: !!! Looks like apiKey is not entered. Please add your key in file -> config\ExtendConfig.json"
+	while ($readInput -ne "abra ka dabra") #stop user from moving forward.
+	{
+		$readInput = Read-Host "Exit by pressing ^C, add your key and restart the process"
+		#Do nothing. Wait for user to process Ctrl+C to exit.
+	}
+}
 
 # determine the download location using current directory
 $CurrentDirectory = Get-Location
