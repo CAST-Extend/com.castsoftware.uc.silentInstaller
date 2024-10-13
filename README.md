@@ -1,2 +1,2 @@
 # Silent Installer
-Silent installation for important CAST packages for the first time installation on a new VM
+Silentinstaller is a package that automatically downloads and installs CAST core components, setting up the environment for analysis without user intervention.
