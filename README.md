@@ -4,4 +4,4 @@ Silentinstaller is a package that automatically downloads and installs CAST core
 # How to Run
 1. Edit config/ExtendConfig.json to add your key
 2. Edit config/InstallConfig.json to specify the installation directory
-3. Run 0_CASTSetup.ps1 as admin i.e open **Powershell prompt as admin****, go to root directory of scripts and run .\0_CASTSetup.ps1.
+3. Run 0_CASTSetup.ps1 as admin i.e open **Powershell prompt as admin**, go to root directory of scripts and run .\0_CASTSetup.ps1.
