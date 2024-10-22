@@ -8,4 +8,4 @@
 & .\2c_installCASTConsoleEnt.ps1
 & .\2d_databasefix.ps1
 & .\2d_installCASTImaging.ps1
-& .3_RestartServicesFix.ps1
+& .\3_RestartServicesFix.ps1
