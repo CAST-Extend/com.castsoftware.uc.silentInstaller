@@ -6,7 +6,7 @@
     "packages": [
 		{"id": "com.castsoftware.uc.arg", "version": "latest"},
 		{"id": "com.castsoftware.imaging", "version": "latest"},
-		{"id": "com.castsoftware.aip", "version": "8.3.58"},
+		{"id": "com.castsoftware.aip", "version": "latest"},
         {"id": "com.castsoftware.aip.console", "version": "latest"},
         {"id": "com.castsoftware.css", "version": "latest"},
         {"id": "com.castsoftware.aip.node", "version": "latest"}
