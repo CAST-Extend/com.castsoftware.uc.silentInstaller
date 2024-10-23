@@ -18,3 +18,4 @@ Silentinstaller is a package that automatically downloads and installs CAST core
 # Known Issues
 if you get script execution denied issue / script not digitinally signed issue, run following command in your powershell commandlet before running the script.
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+SiletInstaller does not install Integrated or standalone dashboard yet. These dashboards do not respect the unattended file parameters for which a product ticket is open.
