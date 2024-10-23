@@ -5,8 +5,9 @@ Silentinstaller is a package that automatically downloads and installs CAST core
 1. Install Java - Java must be installed before running the scripts. If not installed, user will face issues during installation of Enterprise console components.
 2. Enable script execution by running following commands in your powershell commandlet before running scripts.
 
-   Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process #for current session
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser #current user, all sessions
+   > Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process #for current session
+
+   > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser #current user, all sessions
 
 # How to Run
 1. Run Pre-requisities 
